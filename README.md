@@ -1,13 +1,13 @@
 <div align="center">
 
-# comandi v0.0.2
+# AI_DEBUG v0.0.2
 
 A Comprehensive AI-Powered Command-Line Interface for Programming Assistance,  
 Error Debugging, and Command Translation.
 
 <a href="https://app.commanddash.io/agent/github_datavorous_comandi"><img src="https://img.shields.io/badge/AI-Code%20Agent-EB9FDA"></a>
 ![Python version](https://img.shields.io/badge/python-3.10%2B-blue) <br>
-<a href="https://www.producthunt.com/posts/comandi?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-comandi" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=480995&theme=light" alt="Comandi - AI&#0032;CLI&#0032;Tool&#0032;for&#0032;Seamless&#0032;Programming&#0032;&#0038;&#0032;Smart&#0032;Debugging | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 </div>
 
 ## Demo
@@ -20,7 +20,7 @@ Error Debugging, and Command Translation.
 
 ## Overview
 
-COMANDI is an AI-driven command-line tool designed to streamline programming workflows by translating natural language instructions into executable shell commands, debugging code, and offering targeted programming assistance. It leverages advanced natural language processing to enhance developer productivity directly from the terminal, using MetaAI(Llama3).
+AI_DEBUG is an AI-driven command-line tool designed to streamline programming workflows by translating natural language instructions into executable shell commands, debugging code, and offering targeted programming assistance. It leverages advanced natural language processing to enhance developer productivity directly from the terminal, using MetaAI(Llama3).
 
 ## Features
 
@@ -29,12 +29,12 @@ COMANDI is an AI-driven command-line tool designed to streamline programming wor
 
 ## Installation
 
-To install COMANDI, ensure Python 3.10 or higher is installed, and follow these steps:
+To install AI_DEBUG, ensure Python 3.10 or higher is installed, and follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/datavorous/comandi.git
-   cd comandi
+   git clone https://github.com/datavorous/AI_DEBUG.git
+   cd AI_DEBUG
    ```
 
 2. **Build the package:**
@@ -48,18 +48,18 @@ To install COMANDI, ensure Python 3.10 or higher is installed, and follow these 
    pip install .
    ```
 
-4. **Run COMANDI:**
+4. **Run AI_DEBUG:**
    ```bash
-   comandi -run
+   AI_DEBUG -run
    ```
 
 ## Usage
 
-COMANDI supports various functionalities tailored to enhance command-line operations and programming tasks:
+AI_DEBUG supports various functionalities tailored to enhance command-line operations and programming tasks:
 
 1. **Command Execution:**
    - Input a natural language instruction.
-   - COMANDI translates it into a shell command, provides a description, and prompts for execution.
+   - AI_DEBUG translates it into a shell command, provides a description, and prompts for execution.
 
 2. **Code Analysis:**
    - To analyze code, use:
@@ -74,7 +74,7 @@ COMANDI supports various functionalities tailored to enhance command-line operat
      ```
 
 3. **System Information:**
-   - COMANDI displays key system details at startup, providing context for further operations.
+   - AI_DEBUG displays key system details at startup, providing context for further operations.
 
 4. **Interactive Prompts:**
    - Engage with the AI to receive hints, command suggestions, and code fixes. Example:
